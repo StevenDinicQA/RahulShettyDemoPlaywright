@@ -1,0 +1,40 @@
+{
+  "name": "rahulshettydemoplaywright",
+  "version": "1.0.0",
+  "description": "E2E UI Tests with Playwright",
+  "main": "index.js",
+  "keywords": [],
+  "author": "SDin",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "@playwright/test": "^1.36.1",
+    "@types/pngjs": "^6.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "lodash": "^4.17.21",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "rahulTestRadio.spec": "cross-env PWDEBUG=0 ENV=$npm_config_ENV --tags=$npm_config_tags playwright test tests/RahulShettyAcademyDemo/rahulTestRadio.spec.ts",
+    "rahulTestCountries": "cross-env PWDEBUG=0 ENV=$npm_config_ENV --tags=$npm_config_tags playwright test tests/RahulShettyAcademyDemo/rahulTestCountries.spec.ts",
+    "rahulTestDropdown": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestDropdown.spec.ts",
+    "rahulTestCheckBox": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestCheckBox.spec.ts",
+    "rahulTestAlerts": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestAlerts.spec.ts",
+    "rahulTestShowHide": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestShowHide.spec.ts",
+    "rahulTestWindowsTabs": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestWindowsTabs.spec.ts",
+    "rahulTestIFrame": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestIFrame.spec.ts",
+    "rahulTestTable": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestTable.spec.ts",
+    "rahulTestMouseHover": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestMouseHover.spec.ts",
+    "rahulTestCourseList": "cross-env PWDEBUG=0 ENV=$npm_config_ENV tags=$npm_config_TAGS playwright test tests/RahulShettyAcademyDemo/rahulTestCourseList.spec.ts"
+  }
+}

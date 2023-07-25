@@ -1,0 +1,37 @@
+{ 
+    "google": {
+        "badinGoogle": "Badin",
+        "linkedinGoogle": "Linkedin",
+        "assertGoogleSearch": "//h3[contains(text(),'Outsourcing software')]"        
+    },
+    
+    "rahulAutomation": {
+        "hello": "Hello!",
+        "hiJohn": "'Hello John, share this practice page and share your knowledge'",
+        "course1": "Core Java For Automation Testers + Interview Programs",
+        "course2": "JavaScript SDET- Automation Testing Package",
+        "course3": "Software Quality Assurance Engineer - 4 Courses Bundle",
+        "faqTitle": "Frequently Asked Questions",
+        "copyrightFooterText": "All Right Reserved RahulShettyAcademy © 2021",
+        "courseTwoContent": "SDET Automation Engineer – JavaScript",
+        "courseThreeDataList":[
+            "This course will take your skill set to next level as a Penetration Tester with Web security Knowledge",
+            "Training in Practical approach with Real time Scenarios",
+            "Stand out in the Market with powerful Webservice/REST API Testing skills",
+            "2020 BEST job oriented Software Manual Testing course on real time Project+Interview ques+Resume Prep+ Lifetime Support"
+        ],
+        "rowList":[
+            "Alex", "Engineer", "Chennai", "28",
+            "Ben", "Mechanic", "Bengaluru", "23",
+            "Dwayne", "Manager", "Kolkata", "48",
+            "Ivory", "Receptionist", "Chennai", "18",
+            "Jack", "Engineer", "Pune", "32",
+            "Joe", "Postman", "Chennai", "46",
+            "Raymond", "Businessman", "Mumbai", "37",
+            "Ronaldo", "Sportsman", "Chennai", "31",
+            "Smith", "Cricketer", "Delhi", "33"
+        ]
+
+    }
+
+}
